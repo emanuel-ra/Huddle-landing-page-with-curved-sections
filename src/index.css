@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  :root{
+    /* ### Primary */
+  --pink: hsl(322, 100%, 66%);
+  --light-pink: hsl(321, 100%, 78%);
+  --Light-Red: hsl(0, 100%, 63%);
+  --light-blue: hsl(207, 100%, 98%);
+  /* ### Neutral */
+;
+  --very-dark-cyan: hsl(192, 100%, 9%);
+  --very-pale-blue: hsl(207, 100%, 98%);
+  }
+}
+@layer components{
+  body{
+    @apply bg-slate-200
+  }
+  main{
+    @apply max-w-[1440px] min-h-screen m-auto bg-white
+  }  
+  .header{
+    @apply min-w-full flex justify-between items-center p-5 lg:p-10 font-open-sans
+  }
+  .header-logo{
+    @apply w-32
+  }
+  .btn-outline{
+    @apply text-light-pink border-[1px] border-light-pink rounded-full shadow-sm shadow-light-pink hover:opacity-50 hover:shadow-lg hover:shadow-light-pink
+  }
+  .btn{
+    @apply w-full py-1 text-center
+  }
+  .btn-primary{
+    @apply bg-pink py-4 rounded-full shadow-sm hover:shadow-lg font-bold text-white hover:opacity-50 hover:shadow-light-pink
+  }
+  .box-counter{
+    @apply space-y-4 
+  }
+  .banner-body{
+    @apply bg-light-blue flex justify-center
+  }
+}
