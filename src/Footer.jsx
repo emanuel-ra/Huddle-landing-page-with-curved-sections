@@ -63,7 +63,7 @@ function Footer() {
         </article>
 
         <article className="p-5 space-y-5 ">
-          <h4 className="text-white text-2xl font-semibold">NEWSLETTER</h4>
+          <h3 className="text-white text-2xl font-semibold">NEWSLETTER</h3>
           <blockquote className="text-white">
             To recieve tips on how to grow your community, <br />
             sign up to our weekly newsletter. We’ll never send <br />

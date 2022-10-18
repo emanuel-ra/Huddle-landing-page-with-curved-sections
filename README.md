@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [frontendmentor](https://www.frontendmentor.io/solutions/huddle-landing-page-with-curved-tailwindcss-react-1mf6AZ7iU9)
 - Live Site URL: [Live site at netlify](https://stalwart-taffy-c8d6f8.netlify.app/)
 
 ## My process

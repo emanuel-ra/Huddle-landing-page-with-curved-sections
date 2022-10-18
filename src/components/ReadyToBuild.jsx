@@ -7,7 +7,7 @@ function ReadyToBuild() {
             <h2 className="text-3xl lg:text-4xl font-bold">
                 Ready To Build Your Community?
             </h2>
-            <Button text="Get Started For Free" id="btn_get_started" css="btn btn-primary w-1/2" />
+            <Button text="Get Started For Free" id="btn_get_started_2" css="btn btn-primary w-1/2" />
         </section>
     </article>
   )
