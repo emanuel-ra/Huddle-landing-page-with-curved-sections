@@ -17,6 +17,7 @@ module.exports = {
       textColor: theme => ({
         'light-pink' : 'var(--light-pink)' ,
         'very-dark-cyan' : 'var(--very-dark-cyan)' ,        
+        'pink' : 'var(--pink)' ,
       }),
       borderColor : theme => ({
         'light-pink' : 'var(--light-pink)' ,

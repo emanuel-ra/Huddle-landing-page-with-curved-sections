@@ -43,4 +43,7 @@
   .banner-body{
     @apply bg-light-blue flex justify-center
   }
+  .input-error{
+    @apply border-2 border-red-600
+  }
 }
