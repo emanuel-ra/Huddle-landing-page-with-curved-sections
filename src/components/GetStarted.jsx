@@ -1,4 +1,4 @@
-import Button from "./button"
+import Button from "./Button"
 import img from '../assets/screen-mockups.svg'
 import img_communities from '../assets/icon-communities.svg'
 import img_messages from '../assets/icon-messages.svg'
