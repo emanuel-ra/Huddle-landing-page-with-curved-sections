@@ -14,17 +14,12 @@ function GrowTogether() {
       </picture>
 
       <section className='banner-body'>
-        <article className='w-1/2 grid grid-cols-1 lg:grid-cols-2 space-x-10'>
-          
-          <section className='order-2 lg:order-1 flex flex-col justify-center items-center'>
-            <h3>Grow Together</h3>
-            <blockquote>Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form. </blockquote>
-          </section>
-
-          <section className='order-1 lg:order-2'>
-            <img src={illustration} alt="illustration-grow-together" />
-          </section>
-
+        <article className='w-[90%] grid grid-cols-1 lg:grid-cols-2 space-x-10'>          
+          <section className='order-2 lg:order-1 flex flex-col justify-center items-start space-y-5  px-12'>
+            <h3 className='text-3xl font-bold'>Grow Together</h3>
+            <blockquote className='text-lg'>Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form. </blockquote>
+          </section>          
+          <img src={illustration} className="order-1 lg:order-2" alt="illustration-grow-together" />
         </article>
       </section>
       <picture>

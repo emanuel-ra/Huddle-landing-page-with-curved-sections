@@ -6,6 +6,7 @@ import img_messages from '../assets/icon-messages.svg'
 function GetStarted() {
   return (
     <article className="flex flex-col items-center justify-center">
+        
         <section className="w-[90vw] mt-10 lg:w-1/2 space-y-10 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold">Build The Community Your Fans Will Love</h2>
             <blockquote className="lg:px-32">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</blockquote>

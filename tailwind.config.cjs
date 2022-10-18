@@ -9,6 +9,7 @@ module.exports = {
       backgroundColor: theme => ({
         'pink' : 'var(--pink)' ,
         'light-blue' : 'var(--light-blue)' ,  
+        'very-dark-cyan' : 'var(--very-dark-cyan)' ,  
       }),
       boxShadowColor: theme => ({
         'light-pink' : 'var(--light-pink)' ,
